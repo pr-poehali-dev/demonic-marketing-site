@@ -18,7 +18,25 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'oswald': ['Oswald', 'sans-serif'],
+				'opensans': ['Open Sans', 'sans-serif'],
+			},
 			colors: {
+				white: '#FFFFFF',
+				black: '#0F0F0F',
+				red: {
+					500: '#DC2626',
+					600: '#B91C1C',
+					700: '#991B1B',
+					800: '#7F1D1D',
+				},
+				gray: {
+					400: '#8E9196',
+					500: '#6B7280',
+					600: '#4B5563',
+					700: '#374151',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
